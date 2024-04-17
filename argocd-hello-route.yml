@@ -6,6 +6,7 @@ metadata:
     app.kubernetes.io/component: versioned-hello
     app.kubernetes.io/instance: versioned-hello
   name: versioned-hello
+  namespace: argocd-hello
   annotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
     argocd.argoproj.io/sync-wave: "3"
