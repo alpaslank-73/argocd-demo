@@ -19,5 +19,5 @@ spec:
         app: versioned-hello
     spec:
       containers:
-      - image: quay.io/alpaslank/versioned-hello:v1.1
+      - image: quay.io/alpaslank/versioned-hello:v1.0
         name: versioned-hello
