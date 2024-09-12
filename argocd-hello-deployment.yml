@@ -21,3 +21,4 @@ spec:
       containers:
       - image: quay.io/alpaslank/versioned-hello:v1.0
         name: versioned-hello
+
